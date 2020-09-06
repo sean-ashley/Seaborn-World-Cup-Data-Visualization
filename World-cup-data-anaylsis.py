@@ -36,6 +36,6 @@ sns.set_context('notebook',font_scale=1.15)
 f,ax2 = plt.subplots(figsize=(12,7))
 ax2 = sns.boxplot(data= df_goals,x = 'year',y='goals',palette=sns.color_palette('Spectral'))
 ax2.set_title('Average Goals per Year')
-#dispaly fault
+#display boxplot
 plt.show()
 
